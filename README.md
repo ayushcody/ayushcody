@@ -1,201 +1,126 @@
 <div align="center">
 
-# Hey there 👋 I'm Ayush Chougula
+<!-- Replace with your own banner: see banner-notes.md -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,100:76B900&height=180&section=header&text=Ayush%20Chougula&fontColor=FFFFFF&fontSize=48&fontAlignY=32&desc=AI%20Engineer%20%E2%80%A2%20Voice%20Agents%20%E2%80%A2%20RAG%20%E2%80%A2%20Inference&descAlignY=54&descSize=16" width="100%"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&duration=2500&pause=1000&color=76B900&center=true&vCenter=true&width=850&lines=AI+Engineer+in+the+Making;Building+Voice+Agents+and+RAG+Systems;Exploring+LLM+Inference+and+AI+Infrastructure;Turning+Research+into+Production+AI+Products" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&duration=3000&pause=900&color=76B900&center=true&vCenter=true&width=650&lines=I+build+voice+agents+that+respond+in+under+a+second.;I+care+about+what+happens+after+the+model+is+trained.;Embeddings+%E2%86%92+inference+%E2%86%92+something+people+can+use." />
 
-<br>
+<br><br>
 
-<p>
-<a href="https://ayushchougula.in">
-<img src="https://img.shields.io/badge/Portfolio-ayushchougula.in-76B900?style=for-the-badge&logo=googlechrome&logoColor=white"/>
-</a>
-
-<a href="https://linkedin.com/in/ayushchougula">
-<img src="https://img.shields.io/badge/LinkedIn-Ayush%20Chougula-0077B5?style=for-the-badge&logo=linkedin"/>
-</a>
-
-<img src="https://komarev.com/ghpvc/?username=AyushChougula&style=for-the-badge&color=76B900"/>
-
-</p>
+<a href="https://ayushchougula.in"><img src="https://img.shields.io/badge/Portfolio-76B900?style=flat-square&logo=googlechrome&logoColor=white"/></a>
+<a href="https://linkedin.com/in/ayushchougula"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white"/></a>
+<a href="mailto:your@email.com"><img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white"/></a>
+<img src="https://komarev.com/ghpvc/?username=AyushChougula&style=flat-square&color=76B900&label=profile+views"/>
 
 </div>
 
----
+<br>
 
-# 🧠 About Me
+## Currently
 
-```yaml
-name: Ayush Chougula
-education: 3rd Year Computer Science Engineering
-interests:
-  - Generative AI
-  - Voice AI
-  - Retrieval Augmented Generation
-  - AI Infrastructure
-  - LLM Inference & Optimization
-  - Backend Systems
-currently_building:
-  - LiveKit × Sarvam Voice Agent
-  - Production RAG Systems
-currently_learning:
-  - TensorRT-LLM
-  - Triton Inference Server
-  - Agentic Workflows
-goal:
-  Build AI systems that are useful, scalable and production-ready.
-```
+Third-year CS undergrad working on the unglamorous half of AI — the part where a model has to answer a real user, in real time, without falling over.
 
----
+- 🎙️ **Building** — a real-time voice RAG assistant on LiveKit + Sarvam, targeting sub-second turn latency
+- ⚡ **Learning** — TensorRT-LLM, Triton Inference Server, quantization trade-offs at serving time
+- 🔎 **Curious about** — agent memory, retrieval that doesn't hallucinate, and where inference cost actually goes
+- 💬 **Ask me about** — streaming STT/TTS pipelines, FAISS retrieval, FastAPI + WebSockets
+- 📫 **Open to** — AI engineering internships, backend/SWE roles, open-source collaboration
 
-# 🚀 What I Like Building
+<br>
 
-### 🎙️ Voice AI Systems
+## Selected Work
 
-* Real-time STT/TTS pipelines
-* Streaming architectures
-* Low-latency conversational agents
+<table>
+<tr>
+<td width="50%" valign="top">
 
-### 🔍 RAG Systems
+### 🎙️ LiveKit × Sarvam Voice RAG Assistant
+Real-time conversational agent over a private knowledge base. Streaming audio in, grounded answers out.
 
-* Embeddings
-* FAISS
-* Retrieval pipelines
-* Context injection
-* Agent memory
+**Pipeline** — Silero VAD → Sarvam STT → FAISS retrieval → context injection → LLM → Sarvam TTS, streamed over LiveKit WebRTC.
 
-### ⚡ AI Infrastructure
+`LiveKit` `FastAPI` `FAISS` `Sentence-Transformers` `WebSockets`
 
-* Model deployment
-* GPU inference
-* TensorRT-LLM
-* Triton
-* Production optimization
+[Repo →](https://github.com/AyushChougula) · [Demo →](https://ayushchougula.in)
 
-### 🧩 Backend Engineering
+</td>
+<td width="50%" valign="top">
 
-* FastAPI
-* WebSockets
-* APIs
-* System Design
-* Distributed systems
+### ⚡ LLM Inference Playground
+Benchmarking what actually moves the needle on serving latency and throughput.
 
----
+**Exploring** — TensorRT-LLM engine builds, Triton model repositories, INT8/FP8 quantization, batching strategies, and the accuracy cost of each.
 
-# 🛠 Tech Stack
+`TensorRT-LLM` `Triton` `CUDA` `Docker`
 
-### Languages
+[Repo →](https://github.com/AyushChougula)
 
-<p>
-<img src="https://skillicons.dev/icons?i=python,cpp,java,js,ts,sql,bash"/>
-</p>
+</td>
+</tr>
+</table>
 
-### AI / ML
+> 💡 *Swap these for your two strongest repos and add a one-line result to each — "cut p95 latency from 2.4s to 780ms" beats any badge on this page.*
 
-<p>
-<img src="https://skillicons.dev/icons?i=pytorch,tensorflow"/>
-</p>
+<br>
 
-**Transformers • LangChain • FAISS • RAG • Sentence Transformers • Prompt Engineering • Agentic AI**
+## Stack
 
-### Backend & DevOps
+<table>
+<tr><td><b>Languages</b></td><td>
 
-<p>
-<img src="https://skillicons.dev/icons?i=fastapi,docker,git,github,linux,postgres,mongodb"/>
-</p>
+<img src="https://skillicons.dev/icons?i=python,cpp,ts,js,bash&theme=dark" height="36"/> &nbsp;`SQL`
 
----
+</td></tr>
+<tr><td><b>AI / ML</b></td><td>
 
-# 📌 Featured Projects
+<img src="https://skillicons.dev/icons?i=pytorch,tensorflow&theme=dark" height="36"/> &nbsp;`Transformers` `LangChain` `FAISS` `Sentence-Transformers` `TensorRT-LLM` `Triton`
 
-## 🎙️ LiveKit × Sarvam Voice RAG Assistant
+</td></tr>
+<tr><td><b>Backend</b></td><td>
 
-> Real-time conversational AI assistant built using:
+<img src="https://skillicons.dev/icons?i=fastapi,postgres,mongodb,redis&theme=dark" height="36"/> &nbsp;`WebSockets` `REST` `Async Python`
 
-* LiveKit
-* FastAPI
-* Silero VAD
-* Sarvam STT/TTS
-* FAISS
-* Sentence Transformers
-* Context Injection Pipeline
-* Low Latency Voice Streaming
+</td></tr>
+<tr><td><b>Infra</b></td><td>
 
----
+<img src="https://skillicons.dev/icons?i=docker,linux,git,github,aws&theme=dark" height="36"/> &nbsp;`GitHub Actions` `Nginx`
 
-## 🚀 LLM Inference & Deployment
+</td></tr>
+</table>
 
-Currently experimenting with:
+<br>
 
-* TensorRT-LLM
-* Triton Inference Server
-* Quantization
-* GPU Inference Optimization
-* Production Model Serving
-
----
-
-# 📈 GitHub Analytics
-
-<p align="center">
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=AyushChougula&show_icons=true&theme=chartreuse-dark&hide_border=true"/>
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AyushChougula&layout=compact&theme=chartreuse-dark&hide_border=true"/>
-
-</p>
-
----
-
-<p align="center">
-<img src="https://github-readme-streak-stats.herokuapp.com?user=AyushChougula&theme=chartreuse-dark&hide_border=true"/>
-</p>
-
----
-
-# 📊 Contribution Graph
-
-[![Ayush's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=AyushChougula\&theme=react-dark\&bg_color=0D1117\&hide_border=true\&line=76B900\&point=76B900)](https://github.com/AyushChougula)
-
----
-
-# 🏆 GitHub Trophies
-
-<p align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=AyushChougula&theme=matrix&no-frame=true&margin-w=10"/>
-
-</p>
-
----
-
-# 🐍 Contribution Snake
-
-<p align="center">
-
-<img src="https://raw.githubusercontent.com/AyushChougula/AyushChougula/output/github-contribution-grid-snake-dark.svg"/>
-
-</p>
-
----
-
-# 💭 Engineering Philosophy
-
-> "I enjoy building AI systems end-to-end — from embeddings and inference servers to products that people can actually use."
-
-> "The most exciting part of AI isn't training a model. It's making intelligent systems work reliably in production."
-
----
+## Stats
 
 <div align="center">
 
-### 🤝 Let's Connect
+<img height="165em" src="https://github-readme-stats.vercel.app/api?username=AyushChougula&show_icons=true&theme=chartreuse-dark&hide_border=true&bg_color=0D1117&icon_color=76B900&title_color=76B900&include_all_commits=true&count_private=true"/>
+<img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AyushChougula&layout=compact&theme=chartreuse-dark&hide_border=true&bg_color=0D1117&title_color=76B900&langs_count=6"/>
 
-🌐 https://ayushchougula.in
+<br>
 
-💼 https://linkedin.com/in/ayushchougula
+<img src="https://streak-stats.demolab.com?user=AyushChougula&theme=chartreuse-dark&hide_border=true&background=0D1117&ring=76B900&fire=76B900&currStreakLabel=76B900"/>
 
-⭐ Always open to:
-AI Engineering Internships • SWE Roles • Open Source • Interesting AI Projects
+<br><br>
+
+<img src="https://raw.githubusercontent.com/AyushChougula/AyushChougula/output/snake.svg" alt="contribution snake"/>
+
+</div>
+
+<br>
+
+## Philosophy
+
+> Training the model is the demo. Serving it at 3 AM to a user who doesn't care that it's AI — that's the engineering.
+
+<br>
+
+<div align="center">
+
+**Building something in voice AI or inference? I'd like to hear about it.**
+
+<a href="https://ayushchougula.in">ayushchougula.in</a> &nbsp;·&nbsp; <a href="https://linkedin.com/in/ayushchougula">LinkedIn</a>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:76B900,100:0D1117&height=100&section=footer"/>
 
 </div>
