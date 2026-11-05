@@ -150,7 +150,15 @@ Legal reasoning grounded in Indian law: retrieval over statutes, then separate p
 
 ## How I work
 
-> The model is only as good as what you show it. Ground it, test it, and keep a human at the risky steps.
+<div align="center">
+
+*Build.* &nbsp;·&nbsp; *Break.* &nbsp;·&nbsp; *Rebuild.*
+
+*Harden what survives.* &nbsp;·&nbsp; *Ship it.*
+
+*Then begin the next.*
+
+</div>
 
 <br>
 
